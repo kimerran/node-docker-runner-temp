@@ -1,0 +1,10 @@
+curl -X POST -H "Content-Type: application/json" localhost:8080 -d '
+{
+  "git": "https://github.com/kimerran/progatory-node-test.git",
+  "appName" : "progatory-node-test",
+  "ports": {
+    "appPort": "8082",
+    "hostPort": "8081"
+  }
+}
+'
